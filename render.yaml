@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mlops-pipeline-platform
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
