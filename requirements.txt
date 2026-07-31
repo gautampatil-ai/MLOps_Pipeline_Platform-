@@ -1,7 +1,4 @@
-fastapi
-uvicorn
-gunicorn
-pydantic
+streamlit
 scikit-learn
 pandas
 numpy
